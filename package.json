@@ -1,0 +1,23 @@
+{
+  "name": "api-express-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server-local",
+    "deploy":"now"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@ajar/marker": "^1.2.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.5",
+    "morgan": "^1.9.1"
+  }
+}
